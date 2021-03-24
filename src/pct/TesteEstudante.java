@@ -14,6 +14,8 @@ public class TesteEstudante {
     
         Estudante aluno1 = new Estudante ("Uelder", 345, 'B', 0, false);
         
+        
+        
       /*
         aluno1.nome = "Uelder";
         aluno1.ra = 345;

@@ -9,14 +9,18 @@ package pct;
  *
  * @author usaze
  */
+
+
 public class Estudante {
     
+   //Atributos da Classe
    private String nome;
    private int ra;
    private char nota;
    private double freq;
    private boolean matTrancada;
-    
+  
+  //Métodos Get e Set  
    public void setNome(String nome){
        this.nome = nome;
    }
@@ -47,7 +51,7 @@ public class Estudante {
    public boolean getMatTrancada(){
        return matTrancada;
    }
-
+//Método Construtor
     public Estudante(String nome, int ra, char nota, double freq, boolean matTrancada) {
         this.nome = nome;
         this.ra = ra;
