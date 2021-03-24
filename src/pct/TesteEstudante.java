@@ -12,13 +12,15 @@ package pct;
 public class TesteEstudante {
     public static void main (String[]args){
     
-        Estudante aluno1 = new Estudante ();
+        Estudante aluno1 = new Estudante ("Uelder", 345, 'B', 0, false);
         
+      /*
         aluno1.nome = "Uelder";
         aluno1.ra = 345;
         aluno1.nota = 'B';
         aluno1.freq = 0;
         aluno1.matTrancada = false;
+        */
         
         //Exibindo o Estudante
         System.out.println("\n\t\t\t -- Estudante com matricula Ativa--");

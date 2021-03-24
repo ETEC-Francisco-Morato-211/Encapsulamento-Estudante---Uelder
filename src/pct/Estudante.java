@@ -11,12 +11,59 @@ package pct;
  */
 public class Estudante {
     
-    String nome;
-    int ra;
-    char nota;
-    double freq;
-    boolean matTrancada;
+   private String nome;
+   private int ra;
+   private char nota;
+   private double freq;
+   private boolean matTrancada;
     
+   public void setNome(String nome){
+       this.nome = nome;
+   }
+   public String getNome(){
+       return nome;
+   }
+   public void setRa(int ra){
+       this.ra = ra;
+   }
+   public int getRa(){
+       return ra;
+   }
+   public void setNota(char nota){
+       this.nota = nota;
+   }
+   public char getNota(){
+       return nota;
+   }
+   public void setFreq(double freq){
+       this.freq = freq;
+   }
+   public double getFreq(){
+       return freq;
+   }
+   public void setMatTrancada(boolean matTrancada){
+       this.matTrancada = matTrancada;
+   }
+   public boolean getMatTrancada(){
+       return matTrancada;
+   }
+
+    public Estudante(String nome, int ra, char nota, double freq, boolean matTrancada) {
+        this.nome = nome;
+        this.ra = ra;
+        this.nota = nota;
+        this.freq = freq;
+        this.matTrancada = matTrancada;
+    }
+
+    public boolean isMatTrancada() {
+        return matTrancada;
+    }
+
+   
+
+   
+   
     //Métodos
     public void apresentarEstudante(){
         System.out.println("Nome: " + nome);
